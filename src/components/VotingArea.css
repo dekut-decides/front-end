@@ -1,0 +1,67 @@
+.main-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+}
+
+.sub-container1 {
+  width: 15rem;
+  height: 20rem;
+  background-image: url("../Images/user.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+.sub-container2 {
+  width: 15rem;
+  height: 20rem;
+  background-image: url("../Images/user.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+.button {
+  width: 8rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  background-color: #3bc569;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: large;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+}
+.candidate-name {
+  font-size: large;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.main-sub-container {
+  margin-top: 0rem;
+  display: flex;
+  flex-direction: column;
+}
+.sub-container-holder {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 8rem;
+  margin-top: 5rem;
+}
+
+.election-name {
+  margin-left: 15rem;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}

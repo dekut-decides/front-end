@@ -1,0 +1,75 @@
+.home-page-container-main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../Images/two.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-page-sub-container {
+  width: 75%;
+  height: 80%;
+  display: flex;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  border-radius: 10px;
+}
+.image-holder {
+  width: 50%;
+  height: 100%;
+  background: url("../Images/undraw_voting_nvu7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: xx-large;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.home-page-buttons {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: rgba(0, 0, 0, 0.138);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.home-page-button {
+  width: 10rem;
+  height: 4rem;
+  background-color: gold;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.admin-button {
+  margin-left: 460px;
+  background-color: transparent;
+  margin-top: 0;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.homepage-rocket {
+  margin-left: 100px;
+}
+.voter-button {
+  margin-left: 250px;
+  margin-top: -50px;
+  height: 6.5rem;
+  width: 15rem;
+  font-size: x-large;
+  font-weight: 700;
+}
+.homepage-title {
+  margin-left: 20px;
+}

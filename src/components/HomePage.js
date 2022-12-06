@@ -17,9 +17,15 @@ function HomePage() {
           </div>
           <div className="home-page-buttons">
             <Link to="/AdminLogin">
-              <button type="button" className="home-page-button admin-button">
-                Admin
-              </button>
+
+
+
+              <div className="hambuger"></div>
+              <div className="hambuger"></div>
+              <div className="hambuger"></div>
+
+
+              
             </Link>
             <VoterLogin/>
             {/* <img

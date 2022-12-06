@@ -41,14 +41,13 @@ function VoterLogin() {
     }
   };
   return (
+
+
+
     <div data-testid="voterLogin" className="voter-login-container">
       <div className="voter-login-form-container">
         <form className="Voter-form" onSubmit={(e) => handleSubmit(e)}>
-          {/* <img
-            src="/images/user login.png"
-            alt="oops"
 
-          /> */}
           <div className="Voter-input-group">
             <input
               type="text"

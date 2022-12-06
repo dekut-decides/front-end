@@ -4,9 +4,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background: url("../Images/two.jpg"); */
-  /* background-repeat: no-repeat;
-  background-size: cover; */
 }
 .voter-login-form-container {
   width: 80%;
@@ -38,10 +35,8 @@
   height: 60%;
   padding-top: 2rem;
   padding-left: 2rem;
-  /* background-color: rgba(0, 0, 0, 0.6); */
-  /* background: rgba(0, 0, 0, 0.138); */
   border-radius: 10px;
-  /* box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6); */
+
 }
 .Voter-form::before {
   content: "";
@@ -50,7 +45,6 @@
   left: 0;
   width: 50%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.08);
   border-radius: 10px;
   pointer-events: none;
 }
@@ -99,3 +93,7 @@
   padding-left: 5rem;
   margin-bottom: 2rem;
 }
+
+
+
+

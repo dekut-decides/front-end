@@ -20,7 +20,7 @@ function Registration() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:8000/RegisterVoter", {
+      const response = await fetch("https://voting-dapp-api.onrender.com/RegisterVoter", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

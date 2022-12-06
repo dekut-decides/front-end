@@ -18,7 +18,7 @@ function AdminLogin() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const url = "http://localhost:8000/AdminLogin";
+      const url = "https://voting-dapp-api.onrender.com/AdminLogin";
       const { data: res } = await axios.post(url, data);
       localStorage.setItem("adminToken", res.data);
       const adminCredentials = localStorage.getItem("adminToken");

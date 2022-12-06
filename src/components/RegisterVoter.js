@@ -57,7 +57,7 @@ function Display({address ,id}){
       setRegisteredAddress(address);
       console.log("successfully registered");
       setRegistered(true);
-      let url = `http://localhost:8000/RegisterVoter?voterID=${id}`
+      let url = `https://voting-dapp-api.onrender.com/RegisterVoter?voterID=${id}`
       axios.delete(url).then((response) => {
       console.log(response.data);
     });

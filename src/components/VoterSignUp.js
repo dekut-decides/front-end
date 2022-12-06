@@ -23,7 +23,7 @@ function VoterSignUp() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const url = "http://localhost:8000/VoterSignUp";
+      const url = "https://voting-dapp-api.onrender.com/VoterSignUp";
       const { data: res } = await axios.post(url, data);
       setSigned(true);
       navigate("/VoterLogin");

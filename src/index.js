@@ -5,15 +5,19 @@ import App from "./App";
 //import reportWebVitals from './reportWebVitals';
 
 import { BrowserRouter,HashRouter } from "react-router-dom";
+import IpfsRouter from 'ipfs-react-router'
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-    <HashRouter>
-        <App />
-    </HashRouter>
-    </BrowserRouter>
+    {/* <BrowserRouter>
+    <HashRouter> */}
+      <IpfsRouter>
+            <App />
+      </IpfsRouter>
+      
+    {/* </HashRouter>
+    </BrowserRouter> */}
   </React.StrictMode>
 );
 

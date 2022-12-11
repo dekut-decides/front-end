@@ -1,6 +1,6 @@
 {
   "name": "voting",
-  "homepage":".",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +11,7 @@
     "chai-bn": "^0.3.1",
     "chart.js": "^3.9.1",
     "dotenv": "^16.0.3",
+    "ipfs-react-router": "^0.2.2",
     "jwt-decode": "^3.1.2",
     "react": "^18.2.0",
     "react-chartjs-2": "^4.3.1",

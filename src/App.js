@@ -4,6 +4,7 @@ import VoterLogin from "./components/VoterLogin";
 import AdminLogin from "./components/AdminLogin";
 import VoterSignUp from "./components/VoterSignUp";
 import LogoutNav from "./components/LogoutNav";
+import LogoutNavAdmin from "./components/LogoutNavAdmin";
 import { Route, Routes } from "react-router-dom";
 
 import VoterLandingPage from "./components/VoterLandingPage";

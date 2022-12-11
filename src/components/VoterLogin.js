@@ -24,9 +24,11 @@ function VoterLogin() {
       localStorage.setItem("token", res.data);
       const voterCredentials = localStorage.getItem("token");
       if (voterCredentials) {
-        window.location = "/VoterLandingPage";
+         navigate("/VoterLandingPage");
+        // window.location = "/VoterLandingPage";
       } else {
-        window.location = "/VoterLogin";
+         navigate("/VoterLogin");
+        // window.location = "/VoterLogin";
       }
     } catch (error) {
       console.log(error);

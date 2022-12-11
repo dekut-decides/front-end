@@ -1,10 +1,13 @@
 import "./Logout.css";
+import {  useNavigate } from "react-router-dom";
 
 const LogoutNav = () => {
+  const navigate = useNavigate();
+
   const handleLogout = () => {
     localStorage.removeItem("token");
-    window.location = "/";
-    // window.location.reload();
+    navigate("/");
+    
   };
   return (
     <div  data-testid="logoutNav" className="main-container">

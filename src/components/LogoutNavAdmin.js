@@ -1,10 +1,14 @@
 import "./logoutNavAdmin.css";
+import {  useNavigate } from "react-router-dom";
 
 const LogoutNavAdmin = () => {
+
+  const navigate = useNavigate();
+
   const handleLogout = () => {
     localStorage.removeItem("adminToken");
-    window.location = "/";
-    // window.location.reload();
+    navigate("/");
+    
   };
   return (
     <div data-testid="logoutNavAdmin" className="main-container">

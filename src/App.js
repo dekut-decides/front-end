@@ -25,6 +25,7 @@ const ballotAddress = "0x9559FEC5A2144431E4d60536717DdE876240385c";
 
 function App() {
   const user = localStorage.getItem("token");
+  const admin = localStorage.getItem("adminToken");
   console.log(user);
   console.log(typeof window.ethereum);
   let [contractAddress, setContractAddress] = useState(ballotAddress);
@@ -63,7 +64,9 @@ function App() {
   return (
     <>
       <Routes>
+        
         {user && <Route path="*" element={<LogoutNav />} />}
+        {admin && <Route path="*" element={<LogoutNavAdmin />} />}
         <Route path="/" exact element={<HomePage />}></Route>
         <Route path="VoterSignUp" element={<VoterSignUp />} />
         <Route path="AdminLogin" element={<AdminLogin />} />

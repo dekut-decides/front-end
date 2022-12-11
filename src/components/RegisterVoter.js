@@ -13,7 +13,7 @@ function RegisterVoter({contractAddress,Ballot}) {
   const [registered, setRegistered] = useState(false);
   const [registeredAddress, setRegisteredAddress] = useState("");
 
-  const url = "http://localhost:8000/RegisterVoter/?page=1&limit=4";
+  const url = "https://voting-dapp-api.onrender.com/RegisterVoter/?page=1&limit=4";
   const [fetchedData, setFetchedData] = useState([]);
   const [inputAddress, setInputAddress] = useState("");
 

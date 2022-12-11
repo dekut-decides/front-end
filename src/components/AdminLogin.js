@@ -1,6 +1,6 @@
 import React from "react";
 import "./AdminLogin.css";
-import { Navigate,useNavigate, Routes, Route, Link } from "react-router-dom";
+import { useNavigate, Routes, Route, Link } from "react-router-dom";
 import { useState } from "react";
 import axios from "axios";
 import AdminLandingPage from "./AdminLandingPage";
@@ -25,10 +25,10 @@ function AdminLogin() {
       console.log(adminCredentials); 
     
       if (adminCredentials) {
-        return <Navigate to="/AdminLandingPage" />
+           navigate("/AdminLandingPage");
         // window.location = "/AdminLandingPage";
       } else {
-          return <Navigate to="/AdminLogin" />
+           navigate("/AdminLogin");
         // window.location = "/AdminLogin";
       }
     

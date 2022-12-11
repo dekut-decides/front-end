@@ -26,7 +26,8 @@ function VoterSignUp() {
       const url = "https://voting-dapp-api.onrender.com/VoterSignUp";
       const { data: res } = await axios.post(url, data);
       setSigned(true);
-      navigate("/VoterLogin");
+      //  navigate("/VoterLogin");
+      navigate("/HomePage");
     } catch (error) {
       if (
         error.response &&

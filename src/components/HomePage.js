@@ -18,28 +18,14 @@ function HomePage() {
           <div className="home-page-buttons">
             <Link to="/AdminLogin">
 
-
-
               <div className="hambuger"></div>
               <div className="hambuger"></div>
               <div className="hambuger"></div>
 
 
-              
             </Link>
             <VoterLogin/>
-            {/* <img
-              src="/images/get started.png"
-              alt="oops"
-              width="200px"
-              height="200px"
-              className="homepage-rocket"
-            /> */}
-            {/* <Link to="/VoterSignUp">
-              <button type="button" className="home-page-button voter-button">
-                GET STARTED
-              </button>
-            </Link> */}
+          
           </div>
         </div>
       </div>

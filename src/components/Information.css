@@ -10,13 +10,13 @@
   width: 70%;
   height: 90%; 
   border-radius: 0.5rem;
-  padding-left: 2rem;
+  padding-left: 0rem;
 }
 .information-header {
   width: 25rem;
   height: 4rem;
   background-color: #3bc569;
-  margin-left: 8em;
+  margin-left: 4em;
   display: flex;
   justify-content: center;
   align-items: center;

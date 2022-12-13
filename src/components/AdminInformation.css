@@ -12,12 +12,16 @@
   border-radius: 0.5rem;
   padding-left: 2rem;
 }
-.admin-information-header {
-  width: 25rem;
+.admin-information-header { 
+  width: 25rem; 
   height: 4rem;
   background-color: rgb(37, 150, 190);
-  margin-left: 12rem;
+  margin-left: 7rem;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.orderedList{
+height: 3rem;
+font-size: smaller;
 }

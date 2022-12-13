@@ -10,7 +10,7 @@
 .sub-container {
   width: 80%;
   height: 80%;
-  border-radius: 0.5rem;
+  border-radius: 0.5rem; 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -25,30 +25,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: -4em;
-  margin-top: -4.15rem;
+  margin-left: -7em;
+  margin-top: -3.34rem;
 }
 
-.view-results-button {
-  height: 50px;
-  width: 150px;
-  background-color: #3bc569;
-  border-radius: 5px;
-  margin-left: -9em;
-  margin-top: 3em;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  letter-spacing: 1px;
-  font-weight: 600;
-}
+
 .results-table {
   font-weight: 600;
   font-size: large;
-  margin-top: 5em;
+  margin-top: 3em;
   width: 20rem;
 }
 .winner {
   margin-left: -30rem;
   font-weight: 500;
+  
 }

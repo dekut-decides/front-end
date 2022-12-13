@@ -22,7 +22,6 @@ function HomePage() {
               <div className="hambuger"></div>
               <div className="hambuger"></div>
 
-
             </Link>
             <VoterLogin/>
           
@@ -32,7 +31,7 @@ function HomePage() {
       <Routes>
         <Route path="/VoterSignUp" exact element={<VoterSignUp />} />
         <Route path="/AdminLogin" exact element={<AdminLogin />} />
-        <Route path="/VoterLogin" exact element={<VoterLogin />} />
+        {/* <Route path="/VoterLogin" exact element={<VoterLogin />} /> */}
       </Routes>
     </div>
   );

@@ -36,23 +36,22 @@
   border: none;
 }
 .form {
-  margin-top: 5rem;
+  margin-top: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  padding-left: 2em;
+  padding-left: 1em;
 }
 .registration-header {
   width: 25rem;
   height: 4rem;
   background-color: #3bc569;
-  /* box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6); */
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 15rem;
+  margin-left: 8rem;
 }
 .registration-label {
   font-size: large;

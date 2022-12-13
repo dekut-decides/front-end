@@ -34,7 +34,7 @@
 .final {
   margin-left: 10px;
   width: 93%;
-  height: 9.65rem;
+  height: 7.6rem;
   display: flex;
   justify-content: space-evenly;
   background-color: white;
@@ -44,4 +44,7 @@
 }
 .main-container {
   width: 100vw;
+}
+.orderedList{
+  height: 90%
 }

@@ -18,7 +18,7 @@ function AdminInformation() {
            follow in order to execute a successful election.
           </h4>
 
-          <ol>
+          <ol className="orderedList">
             <li>
               <h3>
                 After the smart contract is deployed, click on the add candidates section to add the election aspirants one by one

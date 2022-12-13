@@ -22,7 +22,7 @@ import AdminInformation from "./components/AdminInformation";
 
 import { ethers } from "ethers";
 import Ballot from "./artifacts/contracts/Ballot.sol/Ballot.json";
-const ballotAddress = "0x9559FEC5A2144431E4d60536717DdE876240385c";
+const ballotAddress = "0xe3D947EF92e9B26f37C2D17Bc310aB05BFA20B07";
 
 function App() {
   const user = localStorage.getItem("token");
